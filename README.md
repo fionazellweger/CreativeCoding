@@ -1,3 +1,3 @@
 Creative Coding
 
-Sprint; https://fionazellweger.github.io/CreativeCoding/
+Sprint 1: https://fionazellweger.github.io/CreativeCoding/
