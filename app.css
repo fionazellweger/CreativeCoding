@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Mountain";
-  src: url("GlyphWorld-Mountain.otf") format("opentype");
+  src: url("fonts/GlyphWorld-Mountain.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Authentic";
-  src: url("AUTHENTICSans-90.otf") format("opentype");
+  src: url("fonts/AUTHENTICSans-90.otf") format("opentype");
 }
 
 body {
