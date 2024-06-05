@@ -22,8 +22,8 @@ let ySpalte;
 let mic;
 
 function setup() {
-  paperWidth = 420 * 4;
-  paperHeight = 297 * 3;
+  paperWidth = 420 * 5;
+  paperHeight = 297 * 4;
   createCanvas(paperWidth, paperHeight);
   paperWidth = 420;
   gridAnzahl = floor((paperWidth - 2 * paddingX) / gridSize);
