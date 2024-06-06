@@ -66,6 +66,7 @@ function connectAndDraw() {
       .connect()
       .then(() => {
         connected = true;
+        zeichneDatumAxi();
         drawWithAxi();
         drawCanvasOnly();
         tiles++;
@@ -82,7 +83,6 @@ function connectAndDraw() {
 }
 
 function drawWithAxi() {
-  zeichneDatumAxi();
   if (tiles >= gridAnzahl * floor((paperHeight - 2 * paddingY) / gridSize)) {
     // Reset the drawing position when the end of the paper is reached
     tiles = 0;
